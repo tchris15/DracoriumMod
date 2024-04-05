@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "dracorium",
+	"version": "${version}",
+	"name": "Dracorium",
+	"description": "This is the first mod ever made by tchris15",
+	"authors": [
+		"tchris15!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/dracorium/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.chris.dracorium.DracoriumMod"
+		],
+		"client": [
+			"net.chris.dracorium.DracoriumModClient"
+		],
+		"fabric-datagen": [
+          "net.chris.dracorium.DracoriumModDataGenerator"
+		]
+	},
+	"mixins": [
+		"dracorium.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
