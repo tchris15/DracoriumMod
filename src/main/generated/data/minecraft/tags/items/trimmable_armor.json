@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dracorium:dracorium_helmet",
+    "dracorium:dracorium_chestplate",
+    "dracorium:dracorium_leggings",
+    "dracorium:dracorium_boots"
+  ]
+}

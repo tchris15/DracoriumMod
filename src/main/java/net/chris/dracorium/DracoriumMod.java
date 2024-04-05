@@ -1,5 +1,9 @@
 package net.chris.dracorium;
 
+import net.chris.dracorium.block.ModBlocks;
+import net.chris.dracorium.item.ModItemGroups;
+import net.chris.dracorium.item.ModItems;
+import net.chris.dracorium.util.ModLootTableModifier;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +15,11 @@ public class DracoriumMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+
+		ModItems.registeredModItems();
+		ModBlocks.registerModBlocks();
+
+		ModLootTableModifier.modifyLootTables();
 	}
 }

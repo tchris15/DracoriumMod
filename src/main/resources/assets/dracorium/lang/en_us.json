@@ -1,0 +1,13 @@
+{
+  "item.dracorium.dracorium_ingot": "Dracorium Ingot",
+  "item.dracorium.dracorium_helmet": "Draconic Helm of the Ethereal",
+  "item.dracorium.dracorium_chestplate": "Draconic Chestplate of the Endless",
+  "item.dracorium.dracorium_leggings": "Draconic Leggings of the Veil",
+  "item.dracorium.dracorium_boots": "Draconic Boots of the Ephemeral",
+
+
+
+  "block.dracorium.dracorium_block": "Block of Dracorium",
+
+  "itemgroup.dracorium": "Dracorium Group"
+}

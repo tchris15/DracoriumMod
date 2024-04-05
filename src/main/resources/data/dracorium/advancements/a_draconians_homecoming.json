@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "title": "A Draconian's Homecoming",
+    "description": "Take your initial journey into the End, where the remnants of your Draconian lineage await discovery amidst the void.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "dracorium:textures/blocks/dracorium_block.png",
+    "hidden": true
+  },
+  "criteria": {
+    "entered_end_gateway": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:end_gateway"
+      }
+    }
+  }
+}
