@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "dracorium:dracorium_ingot"
+    },
+    "title": "Echoes of the Draconian Forge",
+    "description": "Unearth the first Draconian ingot, forged in the ancient fires of the End, a relic of a bygone era.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "dracorium:a_draconians_homecoming",
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dracorium:dracorium_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
